@@ -1,0 +1,75 @@
+* {
+  /* font-family: "my-font"; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 5em;
+}
+
+input {
+  margin-left: 700px;
+  height: 35px;
+  width: auto;
+  margin-top: 200px;
+}
+.styleTrue {
+  margin-top: 0;
+}
+.styleFalse {
+}
+button {
+  height: 35px;
+  width: 50px;
+  color: white;
+  border: black;
+  font-weight: bolder;
+  font-family: cursive;
+  background-color: black;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  flex-basis: auto;
+}
+img {
+  max-width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .item {
+    flex-basis: 31%;
+  }
+  .list {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    margin-left: 145px;
+    height: 35px;
+    width: auto;
+    margin-top: 200px;
+  }
+  .item {
+    flex-basis: 48%;
+  }
+  .list {
+    justify-content: center;
+  }
+}
