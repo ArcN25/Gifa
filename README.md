@@ -1,0 +1,2 @@
+# Gifa
+A gif generator
