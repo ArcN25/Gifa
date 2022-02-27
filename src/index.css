@@ -1,17 +1,20 @@
 * {
-  /* font-family: "my-font"; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .App {
+  background: url(./background.jpg);
+  height: 1000vh;
 }
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: monospace;
+  letter-spacing: 5px;
   font-size: 5em;
+  color: #68edff;
 }
 
 input {
@@ -20,8 +23,12 @@ input {
   width: auto;
   margin-top: 200px;
 }
+input:focus {
+  box-shadow: 0 14px 28px rgba(92, 241, 229, 0.979);
+}
 .styleTrue {
   margin-top: 0;
+  transition: all 0.4s ease-out;
 }
 .styleFalse {
 }
