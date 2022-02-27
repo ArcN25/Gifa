@@ -62,13 +62,16 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  .App {
+    background: url(mobile.jpg);
+  }
   h1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   input {
-    margin-left: 145px;
+    margin-left: 100px;
     height: 35px;
     width: auto;
     margin-top: 200px;
