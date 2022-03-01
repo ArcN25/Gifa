@@ -53,6 +53,20 @@ img {
   max-width: 100%;
 }
 @media screen and (max-width: 992px) {
+  button {
+    font-family: sans-serif;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    margin-left: 290px;
+    height: 35px;
+    width: auto;
+    margin-top: 200px;
+  }
   .item {
     flex-basis: 31%;
   }
@@ -64,6 +78,9 @@ img {
 @media screen and (max-width: 600px) {
   .App {
     background: url(mobile.jpg);
+  }
+  button {
+    font-family: sans-serif;
   }
   h1 {
     display: flex;
