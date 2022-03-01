@@ -40,6 +40,7 @@ button {
   font-weight: bolder;
   font-family: cursive;
   background-color: black;
+  cursor: pointer;
 }
 .list {
   display: flex;
