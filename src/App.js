@@ -16,8 +16,6 @@ const App = () => {
             return gif.images.fixed_height.url;
           })
         );
-        console.log(content.data);
-        console.log("META", content.meta);
       })
       .catch((err) => {
         console.error(err);
@@ -38,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>GIFA</h1>
+      <h1>search it! what are you waiting for</h1>
       <input
         className="input-style"
         value={search}

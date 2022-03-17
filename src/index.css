@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,30 +6,31 @@
 }
 .App {
   background: url(./background.jpg);
-  height: 1000vh;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 h1 {
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: monospace;
-  letter-spacing: 5px;
-  font-size: 5em;
-  color: #68edff;
+  font-family: Rubik, sans-serif;
+  font-size: 2em;
+  color: papayawhip;
 }
 
 input {
   margin-left: 700px;
   height: 35px;
   width: auto;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 input:focus {
   box-shadow: 0 14px 28px rgba(92, 241, 229, 0.979);
 }
 .styleTrue {
   margin-top: 0;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 .styleFalse {
 }
